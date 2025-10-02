@@ -15,7 +15,7 @@ This project analyzes district-wise education statistics for Delhi during the 20
 ```
 datascience-visualization-project/
 ├── Delhi_Government_School_Details.ipynb  # Main analysis notebook
-├── EducationDataset_2023-24.csv          t
+├── EducationDataset_2023-24.csv          
 ├── README.md                             
 └── plots/                                
     ├── scatter_plot.png               
@@ -46,6 +46,23 @@ datascience-visualization-project/
 - East District has highest enrollment (189,406 students, 121 schools)
 - Student-to-school ratios vary from 432 to 2,644 across districts
 - Gender distribution remains relatively balanced across all districts
+
+## Visualizations
+
+### 1. Scatter Plot: Student Enrollment vs Pass Percentage
+![Scatter Plot](plots/scatter_plot.png)
+
+This visualization shows the relationship between student enrollment numbers and pass percentages for both Class X and XII. The negative correlation suggests that districts with higher enrollment may face challenges in maintaining pass rates.
+
+### 2. Box Plot: Distribution Analysis
+![Box Plot](plots/box_plot.png)
+
+Box plots displaying the distribution of pass percentages and quality indices across Delhi districts. These help identify outliers and understand the variability in educational performance metrics.
+
+### 3. Bar and Line Plot: District Comparison
+![Bar Line Plot](plots/bar_line_plot.png)
+
+Comprehensive district-wise comparison showing total schools, student enrollment, gender distribution, and trends across different areas of Delhi. This visualization highlights infrastructure distribution and demographic patterns.
 
 ## Key Insights and Observations
 
